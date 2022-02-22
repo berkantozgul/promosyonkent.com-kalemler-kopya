@@ -1,0 +1,418 @@
+
+.mm-sticky{
+    width: 1903px;
+    float: left;
+}
+
+
+.in{
+background-color: #423e3c;
+height: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20rem;
+}
+
+.left ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.left ul li{
+    color: white;
+    letter-spacing: 0px;
+    word-spacing: -1px;
+    padding: 0.5rem;
+    font:11px solid sans-serif;
+    text-transform: uppercase;
+}
+
+.left ul li:hover{
+    color: #d64300;
+    text-decoration: underline;
+}
+
+.right ul li{
+    letter-spacing: 0px;
+    word-spacing: -1px;
+    display: block;
+    color: white;
+    font:13px sans-serif;
+}
+
+.right ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #e9502a;
+}
+
+.main-header-in{
+    height: 100px;
+    padding:0 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header-logo{
+    float: left;
+    margin: 0 0 0 360px;
+}
+
+.main-header-search{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 340px 0 0;
+    float: right;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 50px;
+    width: 285px;
+}
+
+.menu{
+    width: 1260px;
+    height: 50px;
+    background: #e84b20;
+    color:white;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0 20rem;
+}
+
+.menu li{
+    float: left;
+    position: relative;
+
+}
+
+.menu ul li a{
+    margin-right: 15px;
+    text-decoration: none;
+    font: 13px solid sans-serif;
+    color: white;
+    display: block;
+}
+
+.menu ul li a:hover{
+    color: black;
+}
+
+#hediyeCekleri{
+float: left;
+position: relative;
+ padding-left: 12rem;
+}
+
+
+.promosyonDiv{
+    width: 1250px;
+    height: 355.65px;
+    display: none;
+    position: absolute; 
+    top: 70px;
+    left: -100px; 
+    background-color: rgb(250, 250, 250);
+}
+
+.promosyonDiv1{
+margin-right: 350px;
+   color: red;
+   justify-content: space-between;
+   text-align: center;
+   text-transform: capitalize;
+   font:20px solid sans-serif;
+   
+}
+
+.menu ul li:hover div{
+    display: block;
+}
+
+.promosyonDiv2{
+    width: 281.25px;
+    height: 281.25px;
+    float: left;
+}
+
+.promosyonDiv3{
+    width: 968.25px;
+    height: 281.25px;
+}
+
+
+
+.deneme{
+    float: left;
+    width: 220px;
+    height: 280px;
+}
+
+.tekstilDiv{
+    width: 1250px;
+    height: 355.65px;
+    display: none;
+    position: absolute; 
+    top: 70px;
+    left: -150px; 
+    background-color: rgb(250, 250, 250);
+}
+
+.tekstilDiv1{
+    margin-right: 400px;
+   color: red;
+   justify-content: space-between;
+   text-align: center;
+   text-transform: capitalize;
+   font:20px solid sans-serif;
+   
+}
+
+.tekstilDiv2{
+    width: 281.25px;
+    height: 281.25px;
+    float: left;
+}
+
+.tekstilDiv3{
+    width: 968.25px;
+    height: 281.25px;
+}
+
+.elektronikDiv{
+    width: 1250px;
+    height: 355.65px;
+    display: none;
+    position: absolute; 
+    top: 70px;
+    left: -200px; 
+    background-color: rgb(250, 250, 250);
+}
+
+.cantalarDiv{
+    width: 1250px;
+    height: 355.65px;
+    display: none;
+    position: absolute; 
+    top: 70px;
+    left: -250px; 
+    background-color: rgb(250, 250, 250);
+}
+
+.hediyelikSetlerDiv{
+    width: 1250px;
+    height: 355.65px;
+    display: none;
+    position: absolute; 
+    top: 70px;
+    left: -300px;
+    background-color: rgb(250, 250, 250);
+}
+
+.uretimDiv{
+    width: 1250px;
+    height: 355.65px;
+    display: none;
+    position: absolute; 
+    top: 70px;
+    left: -350px;
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+
+
+.menu ul li div ul li a{
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 33px 0 0;
+    color: black;
+    font: 24.4px bold sans-serif;
+    text-transform: capitalize;
+}
+
+.hediyeCekleriDiv{
+    color: white;
+     border: 1px solid rgb(240, 76, 0);
+     background-color: rgb(240, 100, 0);
+     width: 365px;
+     height: 732px;
+     display: none;
+     position: absolute; 
+     top: 33px;
+ }
+
+.menu ul li div li div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left:1px solid rgb(240, 76, 0) ;
+    border-right:1px solid rgb(240, 76, 0) ;
+    border-bottom:1px solid rgb(240, 76, 0);
+    height: 57px;
+    width: 364px;
+     color: white;
+     font: 19px bold sans-serif;
+ }
+
+ .navigation{
+    margin-left: 320px;
+     float: left;
+     height: 74px;
+     color: #e9502a;
+     font: 15px sans-serif;
+ }
+
+ .navigation div{
+     padding: 15px 0 0 0;
+     height: 59px;
+ }
+
+ .navigation div a{
+     color: #666666;
+     font: 14px sans-serif;
+     text-decoration: none; 
+ }
+
+ .row{
+     float: left;
+     width: 1903px;
+     height: 50px;
+     border-top: 1px solid rgb(225, 225, 225);
+     border-bottom: 1px solid rgb(225, 225, 225);
+ }
+
+ .row1{
+     padding: 10px 0 0 0;
+     margin-left: 320px;
+     background-color: #474747;
+     width: 291px;
+     height: 40px;
+     align-items: center;
+ }
+
+ .row2{
+     float: left;
+     padding: 5px 0 0 0;
+     font: 17px bold sans-serif;
+     text-align: center;
+     color: white;
+     margin-left: 25px;
+     width: 35px;
+     height: 25px;
+     background-color: #e9502a;
+ }
+
+ .row3{
+     padding: 5px 0 0 0;
+     margin-left:5px ;
+     float: left;
+     height: 25px;
+     font: 18px bold sans-serif;
+     color: white;
+ }
+
+ .filter{
+     float: left;
+     width: 288px;
+     height: 322px;
+     border: 0.5px solid rgb(225, 225, 225);
+     margin-left: 21px;
+     background-color: #e4e2e2;
+ }
+
+ .filter1{
+     margin-left: 15px ;
+     padding: 10px 0 30px 0;
+     width: 248px;
+     height: 11px;
+     font:21px bold sans-serif;
+     color: #333;
+     float: left;
+ }
+
+ .filter2{
+     margin-left: 15px;
+     float: left;
+     width: 248px;
+     height: 241px;
+ }
+
+ .filter2 ul li a{
+     margin: 50px 0 0 0;
+     text-decoration: none;
+     color: black;
+     font: 17px bold sans-serif;
+     letter-spacing: -1px;
+     word-spacing:  0px;
+ }
+
+ .filter2 ul li{
+     padding: 8px 0 0 0;
+     
+ }
+
+.filter2 ul li a:hover{
+    color: #d64300;
+}
+
+.urunCard{
+    display: grid;
+    width: 300px;
+    height: 519px;
+    float: left;
+    border: 1px solid rgb(220, 220, 220);
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 30px;
+    position: static;
+}
+
+.urunCard2{
+    padding: 40px 0 0 0;
+    width: 298px;
+    height: 65px;
+    float: left;
+}
+
+.urunCard3{
+    float: left;
+    padding: 40px 0 0 0;
+    width: 298px;
+    height: 65px;
+}
+
+.urunCard2 a{
+    margin-left: 30px;
+    color: #474747;
+    text-decoration: none;
+    font: 17px bold sans-serif;
+}
+
+.urunCard3 a{
+    margin-left: 30px;
+    color: #474747;
+    text-decoration: none;
+    font: 17px bold sans-serif;
+}
+
+.urunCard3 a span{
+    color: black;
+    font: 20px bold sans-serif;
+}
+.sayfaMain{
+    margin-left: 300px;
+    width: 1280px;
+}
+
+.urunCardContainer{
+    margin-left: 310px;
+    width: 980px;
+}
+
+
